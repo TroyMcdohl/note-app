@@ -1,0 +1,96 @@
+.c_profile_container {
+  width: 100%;
+  height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.c_profile_title {
+  font-size: 20px;
+}
+
+.c_label {
+  font-size: 18px;
+  margin-bottom: 5px;
+  font-weight: 300px;
+}
+
+.c_profile_input {
+  display: flex;
+  flex-direction: column;
+}
+
+.c_btn {
+  border: none;
+
+  width: 100px;
+  height: 35px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s ease;
+  background-color: blue;
+  color: white;
+}
+
+.c_btn:hover {
+  background-color: aqua;
+  color: black;
+  transition: 0.5s ease;
+}
+
+.c_input {
+  width: 500px;
+  height: 30px;
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+  font-size: 15px;
+}
+
+.c_input_invalid {
+  width: 500px;
+  height: 30px;
+  border: none;
+  border-bottom: 2px solid red;
+  outline: none;
+  font-size: 15px;
+}
+
+.c_pwd_btn {
+  border: none;
+
+  width: 100px;
+  height: 35px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s ease;
+  background-color: transparent;
+  color: black;
+}
+
+.c_pwd_btn:hover {
+  color: blue;
+  transition: 0.5s ease;
+}
+
+.c_profile_img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+@media (max-width: 760px) {
+  .c_input {
+    width: 200px;
+    height: 25px;
+  }
+
+  .c_input_invalid {
+    width: 200px;
+    height: 25px;
+  }
+}
